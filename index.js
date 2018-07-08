@@ -3,8 +3,9 @@
 var React = require('react');
 var {
   Component,
-  PropTypes
 } = React;
+
+var PropTypes = require('prop-types');
 
 var ReactNative = require('react-native');
 var {
