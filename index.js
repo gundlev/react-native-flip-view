@@ -5,7 +5,7 @@ var {
   Component,
 } = React;
 
-var PropTypes = require('prop-types');
+// var PropTypes = require('prop-types');
 
 var ReactNative = require('react-native');
 var {
@@ -16,18 +16,18 @@ var {
   } = ReactNative;
 
 class FlipView extends Component {
-  static propTypes = {
-    style: View.propTypes.style,
-    flipDuration: PropTypes.number,
-    flipEasing: PropTypes.func,
-    flipAxis: PropTypes.oneOf(['x', 'y']),
-    front: PropTypes.object,
-    back: PropTypes.object,
-    perspective: PropTypes.number,
-    onFlip: PropTypes.func,
-    onFlipped: PropTypes.func,
-    isFlipped: PropTypes.bool,
-  };
+  // static propTypes = {
+  //   style: View.propTypes.style,
+  //   flipDuration: PropTypes.number,
+  //   flipEasing: PropTypes.func,
+  //   flipAxis: PropTypes.oneOf(['x', 'y']),
+  //   front: PropTypes.object,
+  //   back: PropTypes.object,
+  //   perspective: PropTypes.number,
+  //   onFlip: PropTypes.func,
+  //   onFlipped: PropTypes.func,
+  //   isFlipped: PropTypes.bool,
+  // };
 
   static defaultProps = {
     style: {},
